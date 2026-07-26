@@ -1,4 +1,4 @@
-#This program gives what type if nature image has by getting user input.
+#This program gives what type of nature image has by getting magnification as input.
 import math
 
 def image_nature(magni):
