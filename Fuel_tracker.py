@@ -43,7 +43,6 @@ class Car(Vehicle):
                 self.fuel=self.fuel-self.total_consumption
                 print(f"The car has covered {self.distance} km and the remaining fuel is {self.fuel} L")
                             
-            #print("The distance covered is")
             
 car1=Car(14,13,2)
 car1.drive(20)
