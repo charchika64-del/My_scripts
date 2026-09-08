@@ -1,6 +1,4 @@
 import requests
-response = requests.get("https://api.adviceslip.com/advice")
-data = response.json()  # Converts to Python dictionary/list
 print("Please take some advice.")
 take_advice=input("Take advice (y/n)? ")
 while take_advice=="y":
