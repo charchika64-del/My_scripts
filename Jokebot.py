@@ -1,6 +1,5 @@
 import requests 
 url="https://official-joke-api.appspot.com/random_joke"
-seen_jokes=[]
 #it has keys type,setup,punchline,id
 permission=input("Wanna laugh(y/n)? ")
 while permission=="y":
